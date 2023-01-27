@@ -49,6 +49,7 @@ export default function TodoApp() {
         {todos.map((arug1) => {
           return (
             <li
+              key={arug1.todoText}
               style={{
                 color: arug1.completed === true ? "green" : "red",
                 fontStyle: "italic",
